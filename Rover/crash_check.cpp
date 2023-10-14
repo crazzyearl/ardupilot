@@ -1,7 +1,7 @@
 #include "Rover.h"
 
 // Code to detect a crash or block
-static const uint16_t CRASH_CHECK_TRIGGER_SEC = 2;   // 2 seconds blocked indicates a crash
+static const uint16_t CRASH_CHECK_TRIGGER_SEC = 30;   // 30 seconds blocked indicates a crash
 static const float CRASH_CHECK_THROTTLE_MIN = 5.0f;  // vehicle must have a throttle greater that 5% to be considered crashed
 static const float CRASH_CHECK_VEL_MIN = 0.08f;      // vehicle must have a velocity under 0.08 m/s or rad/s to be considered crashed
 
